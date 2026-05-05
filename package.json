@@ -1,6 +1,13 @@
 {
   "name": "agencyview-hierarchy-tree",
   "version": "1.0.0",
-  "description": "Hierarchy Tree component for AgencyView",
-  "dependencies": {}
+  "license": "MIT",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
 }
