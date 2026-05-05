@@ -1,5 +1,6 @@
 {
   "name": "agencyview-hierarchy-tree",
   "version": "1.0.0",
-  "description": "Hierarchy Tree component for AgencyView"
+  "description": "Hierarchy Tree component for AgencyView",
+  "dependencies": {}
 }
