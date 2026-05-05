@@ -211,8 +211,8 @@ export default {
 
     // ── Auth token ──────────────────────────────────────────────────────────
     function getToken() {
-      return pluginVariables['f5856798-485d-47be-b433-d43d771c64e1']['accessToken']
-    }
+      return props.content?.authToken
+}
 
     function authHeaders() {
       return { Authorization: 'Bearer ' + getToken() }
