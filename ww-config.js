@@ -1,15 +1,18 @@
 export default {
   editor: {
-    label: 'Hierarchy Tree',
-    icon:  'altimeter'
+    label: {
+      en: 'Hierarchy Tree'
+    }
   },
   properties: {
     content: {
-      label:        'Content',
-      type:         'Object',
+      label: {
+        en: 'Content'
+      },
+      type: 'Object',
       defaultValue: {},
-      bindable:     true,
-      section:      'settings'
+      bindable: true,
+      section: 'settings'
     }
   }
 }
