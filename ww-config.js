@@ -6,11 +6,15 @@ export default {
   },
   properties: {
     content: {
-      label: {
-        en: 'Content'
-      },
+      label: { en: 'Content' },
       type: 'Object',
       defaultValue: {},
+      bindable: true,
+      section: 'settings'
+    },
+    authToken: {
+      label: { en: 'Auth Token' },
+      type: 'Text',
       bindable: true,
       section: 'settings'
     }
